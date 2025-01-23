@@ -1,0 +1,46 @@
+[INFO 2024-12-14T14:39:24+01:00] Postgres driver initialized
+[INFO 2024-12-14T14:40:45+01:00] Created new crawl record for test with id 1
+[INFO 2024-12-14T14:40:45+01:00] Launching browser...
+[INFO 2024-12-14T14:40:57+01:00] Running Chrome/129.0.6668.58
+[INFO 2024-12-14T14:40:58+01:00] https://www.nytimes.com/: Loading page
+[INFO 2024-12-14T14:41:18+01:00] https://www.nytimes.com/: Page finished loading
+[INFO 2024-12-14T14:41:18+01:00] https://www.nytimes.com/: Attempting to remove cookie banners
+[INFO 2024-12-14T14:41:19+01:00] https://www.nytimes.com/: Scrolling page from top to bottom
+[INFO 2024-12-14T14:41:53+01:00] https://www.nytimes.com/: 9 ads identified
+[INFO 2024-12-14T14:41:53+01:00] https://www.nytimes.com/: Scraping ad 1 of 9
+[WARNING 2024-12-14T14:41:58+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:41:58+01:00] https://www.nytimes.com/: Scraping ad 2 of 9
+[WARNING 2024-12-14T14:42:03+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:42:03+01:00] https://www.nytimes.com/: Scraping ad 3 of 9
+[WARNING 2024-12-14T14:42:08+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:42:08+01:00] https://www.nytimes.com/: Scraping ad 4 of 9
+[WARNING 2024-12-14T14:42:13+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2024-12-14T14:42:13+01:00] https://www.nytimes.com/: Scraping ad 5 of 9
+[WARNING 2024-12-14T14:42:18+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2024-12-14T14:42:18+01:00] https://www.nytimes.com/: Scraping ad 6 of 9
+[WARNING 2024-12-14T14:42:24+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:42:24+01:00] https://www.nytimes.com/: Scraping ad 7 of 9
+[WARNING 2024-12-14T14:42:29+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:42:29+01:00] https://www.nytimes.com/: Scraping ad 8 of 9
+[WARNING 2024-12-14T14:42:34+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:42:34+01:00] https://www.nytimes.com/: Scraping ad 9 of 9
+[WARNING 2024-12-14T14:42:39+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:42:39+01:00] Closing tab
+[INFO 2024-12-14T14:42:39+01:00] https://www.cnn.com/: Loading page
+[INFO 2024-12-14T14:42:53+01:00] https://www.cnn.com/: Page finished loading
+[INFO 2024-12-14T14:42:53+01:00] https://edition.cnn.com/: Attempting to remove cookie banners
+[INFO 2024-12-14T14:42:55+01:00] https://edition.cnn.com/: Scrolling page from top to bottom
+[INFO 2024-12-14T14:43:20+01:00] https://edition.cnn.com/: 8 ads identified
+[INFO 2024-12-14T14:43:20+01:00] https://edition.cnn.com/: Scraping ad 1 of 8
+[WARNING 2024-12-14T14:43:25+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:43:25+01:00] https://edition.cnn.com/: Scraping ad 2 of 8
+[INFO 2024-12-14T14:43:31+01:00] https://edition.cnn.com/: Scraping ad 3 of 8
+[INFO 2024-12-14T14:43:37+01:00] https://edition.cnn.com/: Scraping ad 4 of 8
+[WARNING 2024-12-14T14:43:42+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T14:43:42+01:00] https://edition.cnn.com/: Scraping ad 5 of 8
+[INFO 2024-12-14T14:43:48+01:00] https://edition.cnn.com/: Scraping ad 6 of 8
+[INFO 2024-12-14T14:43:53+01:00] https://edition.cnn.com/: Scraping ad 7 of 8
+[INFO 2024-12-14T14:43:59+01:00] https://edition.cnn.com/: Scraping ad 8 of 8
+[INFO 2024-12-14T14:44:05+01:00] Closing tab
+[INFO 2024-12-14T14:44:05+01:00] Crawl loop completed
+[INFO 2024-12-14T14:44:05+01:00] Browser still connected, closing browser

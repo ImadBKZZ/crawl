@@ -1,0 +1,199 @@
+[INFO 2024-12-15T17:33:54+01:00] Postgres driver initialized
+[INFO 2024-12-15T17:35:14+01:00] Created new crawl record for bob with id 11
+[INFO 2024-12-15T17:35:14+01:00] Launching browser...
+[INFO 2024-12-15T17:35:28+01:00] Running Chrome/129.0.6668.58
+[INFO 2024-12-15T17:35:29+01:00] https://www.bobvila.com/: Loading page
+[INFO 2024-12-15T17:35:49+01:00] https://www.bobvila.com/: Page finished loading
+[INFO 2024-12-15T17:35:49+01:00] https://www.bobvila.com/: Attempting to remove cookie banners
+[INFO 2024-12-15T17:35:50+01:00] https://www.bobvila.com/: Scrolling page from top to bottom
+[INFO 2024-12-15T17:36:21+01:00] https://www.bobvila.com/: 1 ads identified
+[INFO 2024-12-15T17:36:21+01:00] https://www.bobvila.com/: Scraping ad 1 of 1
+[WARNING 2024-12-15T17:36:26+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-15T17:36:26+01:00] Closing tab
+[INFO 2024-12-15T17:36:26+01:00] Crawl loop completed
+[INFO 2024-12-15T17:36:26+01:00] Browser still connected, closing browser
+[INFO 2024-12-16T11:26:56+01:00] Postgres driver initialized
+[INFO 2024-12-16T11:28:17+01:00] Created new crawl record for bob with id 12
+[INFO 2024-12-16T11:28:17+01:00] Launching browser...
+[INFO 2024-12-16T11:28:37+01:00] Running Chrome/129.0.6668.58
+[INFO 2024-12-16T11:28:37+01:00] https://www.bobvila.com/: Loading page
+[INFO 2024-12-16T11:28:53+01:00] https://www.bobvila.com/: Page finished loading
+[INFO 2024-12-16T11:28:53+01:00] https://www.bobvila.com/: Attempting to remove cookie banners
+[INFO 2024-12-16T11:28:54+01:00] https://www.bobvila.com/: Scrolling page from top to bottom
+[INFO 2024-12-16T11:29:26+01:00] https://www.bobvila.com/: 1 ads identified
+[INFO 2024-12-16T11:29:26+01:00] https://www.bobvila.com/: Scraping ad 1 of 1
+[WARNING 2024-12-16T11:29:31+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-16T11:29:31+01:00] Closing tab
+[INFO 2024-12-16T11:29:31+01:00] Crawl loop completed
+[INFO 2024-12-16T11:29:31+01:00] Browser still connected, closing browser
+[INFO 2025-01-13T15:31:55+01:00] Postgres driver initialized
+[INFO 2025-01-13T15:33:15+01:00] Created new crawl record for bob with id 30
+[INFO 2025-01-13T15:33:15+01:00] Launching browser...
+[INFO 2025-01-13T15:53:55+01:00] Postgres driver initialized
+[INFO 2025-01-13T15:55:16+01:00] Created new crawl record for bob with id 31
+[INFO 2025-01-13T15:55:16+01:00] Launching browser...
+[INFO 2025-01-13T16:09:27+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:10:47+01:00] Created new crawl record for bob with id 32
+[INFO 2025-01-13T16:10:47+01:00] Launching browser...
+[INFO 2025-01-13T16:23:34+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:24:54+01:00] Created new crawl record for bob with id 33
+[INFO 2025-01-13T16:24:54+01:00] Launching browser...
+[INFO 2025-01-13T16:25:57+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:27:17+01:00] Created new crawl record for bob with id 34
+[INFO 2025-01-13T16:27:17+01:00] Launching browser...
+[INFO 2025-01-13T16:28:53+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:30:13+01:00] Created new crawl record for bob with id 35
+[INFO 2025-01-13T16:30:13+01:00] Launching browser...
+[INFO 2025-01-13T16:32:54+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:34:14+01:00] Created new crawl record for bob with id 36
+[INFO 2025-01-13T16:34:14+01:00] Launching browser...
+[INFO 2025-01-13T16:35:30+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:36:51+01:00] Created new crawl record for bob with id 37
+[INFO 2025-01-13T16:36:51+01:00] Launching browser...
+[INFO 2025-01-13T16:40:07+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:41:27+01:00] Created new crawl record for bob with id 38
+[INFO 2025-01-13T16:41:27+01:00] Launching browser...
+[INFO 2025-01-13T16:41:34+01:00] Running Chrome/131.0.6778.204
+[INFO 2025-01-13T16:41:35+01:00] https://www.dailymail.co.uk/: Loading page
+[INFO 2025-01-13T16:41:46+01:00] https://www.dailymail.co.uk/: Page finished loading
+[INFO 2025-01-13T16:41:46+01:00] https://www.dailymail.co.uk/home/index.html: Attempting to remove cookie banners
+[INFO 2025-01-13T16:41:47+01:00] https://www.dailymail.co.uk/home/index.html: Scrolling page from top to bottom
+[INFO 2025-01-13T16:42:19+01:00] https://www.dailymail.co.uk/home/index.html: 23 ads identified
+[INFO 2025-01-13T16:42:19+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 1 of 23
+[WARNING 2025-01-13T16:42:24+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-13T16:42:24+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 2 of 23
+[WARNING 2025-01-13T16:42:30+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-13T16:42:30+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 3 of 23
+[WARNING 2025-01-13T16:42:35+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-13T16:42:35+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 4 of 23
+[WARNING 2025-01-13T16:42:40+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-13T16:42:40+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 5 of 23
+[WARNING 2025-01-13T16:42:45+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2025-01-13T16:42:45+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 6 of 23
+[INFO 2025-01-13T16:42:51+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 7 of 23
+[INFO 2025-01-13T16:42:56+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 8 of 23
+[INFO 2025-01-13T16:43:02+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 9 of 23
+[WARNING 2025-01-13T16:43:07+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-13T16:43:07+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 10 of 23
+[WARNING 2025-01-13T16:43:12+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-13T16:43:12+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 11 of 23
+[INFO 2025-01-13T16:43:17+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 12 of 23
+[INFO 2025-01-13T16:43:23+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 13 of 23
+[INFO 2025-01-13T16:43:28+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 14 of 23
+[INFO 2025-01-13T16:43:34+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 15 of 23
+[INFO 2025-01-13T16:43:39+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 16 of 23
+[INFO 2025-01-13T16:43:44+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 17 of 23
+[INFO 2025-01-13T16:43:50+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 18 of 23
+[INFO 2025-01-13T16:43:55+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 19 of 23
+[INFO 2025-01-13T16:44:01+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 20 of 23
+[INFO 2025-01-13T16:44:06+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 21 of 23
+[INFO 2025-01-13T16:44:11+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 22 of 23
+[INFO 2025-01-13T16:44:17+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 23 of 23
+[INFO 2025-01-13T16:44:22+01:00] Closing tab
+[INFO 2025-01-13T16:44:22+01:00] Crawl loop completed
+[INFO 2025-01-13T16:44:22+01:00] Browser still connected, closing browser
+[INFO 2025-01-13T16:47:20+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:48:41+01:00] Created new crawl record for bob with id 39
+[INFO 2025-01-13T16:48:41+01:00] Launching browser...
+[INFO 2025-01-13T16:53:50+01:00] Postgres driver initialized
+[INFO 2025-01-13T16:55:10+01:00] Created new crawl record for bob with id 40
+[INFO 2025-01-13T16:55:10+01:00] Launching browser...
+[INFO 2025-01-13T16:57:44+01:00] Postgres driver initialized
+[INFO 2025-01-13T17:01:10+01:00] Created new crawl record for bob with id 41
+[INFO 2025-01-13T17:01:10+01:00] Launching browser...
+[INFO 2025-01-13T17:10:20+01:00] Postgres driver initialized
+[INFO 2025-01-13T17:11:41+01:00] Created new crawl record for bob with id 42
+[INFO 2025-01-13T17:11:41+01:00] Launching browser...
+[INFO 2025-01-13T17:13:02+01:00] Postgres driver initialized
+[INFO 2025-01-13T17:14:23+01:00] Created new crawl record for bob with id 43
+[INFO 2025-01-13T17:14:23+01:00] Launching browser...
+[INFO 2025-01-13T17:14:31+01:00] Running Chrome/131.0.6778.204
+[INFO 2025-01-13T17:14:31+01:00] https://www.dailymail.co.uk/: Loading page
+[INFO 2025-01-13T17:14:40+01:00] https://www.dailymail.co.uk/: Page finished loading
+[INFO 2025-01-13T17:14:40+01:00] https://www.dailymail.co.uk/home/index.html: Attempting to remove cookie banners
+[INFO 2025-01-13T17:14:41+01:00] https://www.dailymail.co.uk/home/index.html: Scrolling page from top to bottom
+[INFO 2025-01-13T17:15:14+01:00] Postgres driver initialized
+[INFO 2025-01-13T17:16:35+01:00] Created new crawl record for bob with id 44
+[INFO 2025-01-13T17:16:35+01:00] Launching browser...
+[INFO 2025-01-13T17:26:03+01:00] Postgres driver initialized
+[INFO 2025-01-13T17:27:24+01:00] Created new crawl record for bob with id 45
+[INFO 2025-01-13T17:27:24+01:00] Launching browser...
+[INFO 2025-01-13T17:29:48+01:00] Postgres driver initialized
+[INFO 2025-01-13T17:31:08+01:00] Created new crawl record for bob with id 46
+[INFO 2025-01-13T17:31:08+01:00] Launching browser...
+[INFO 2025-01-13T18:30:46+01:00] Postgres driver initialized
+[INFO 2025-01-13T18:32:07+01:00] Created new crawl record for bob with id 47
+[INFO 2025-01-13T18:32:07+01:00] Launching browser...
+[INFO 2025-01-13T23:02:16+01:00] Postgres driver initialized
+[INFO 2025-01-13T23:02:16+01:00] Created new crawl record for bob with id 48
+[INFO 2025-01-13T23:02:16+01:00] Launching browser...
+[INFO 2025-01-13T23:02:21+01:00] Running Chrome/131.0.6778.264
+[INFO 2025-01-13T23:02:22+01:00] https://www.dailymail.co.uk/: Loading page
+[INFO 2025-01-13T23:02:48+01:00] https://www.dailymail.co.uk/: Page finished loading
+[INFO 2025-01-13T23:02:48+01:00] https://www.dailymail.co.uk/home/index.html: Attempting to remove cookie banners
+[INFO 2025-01-13T23:02:50+01:00] https://www.dailymail.co.uk/home/index.html: Scrolling page from top to bottom
+[ERROR 2025-01-13T23:03:07+01:00] Caught exception in loadAndHandlePage
+[ERROR 2025-01-13T23:03:07+01:00] Caught exception in inner crawl loop and timeout block
+[ERROR 2025-01-13T23:03:07+01:00] https://www.dailymail.co.uk/home/index.html: Attempted to use detached Frame 'C9129CDDAA79EC2FEF61B441D9883AB6'.
+Error: Attempted to use detached Frame 'C9129CDDAA79EC2FEF61B441D9883AB6'.
+    at CdpFrame.<anonymous> (C:\Users\ibouk\Desktop\INTEGRATEUR\adscraper\crawler\node_modules\puppeteer-core\src\util\decorators.ts:61:15)
+    at CdpPage.evaluate (C:\Users\ibouk\Desktop\INTEGRATEUR\adscraper\crawler\node_modules\puppeteer-core\src\api\Page.ts:2241:35)
+    at scrollDownPage (file:///C:/Users/ibouk/Desktop/INTEGRATEUR/adscraper/crawler/src/crawler.ts:638:26)
+    at loadAndHandlePage (file:///C:/Users/ibouk/Desktop/INTEGRATEUR/adscraper/crawler/src/crawler.ts:560:5)
+    at file:///C:/Users/ibouk/Desktop/INTEGRATEUR/adscraper/crawler/src/crawler.ts:334:26
+    at file:///C:/Users/ibouk/Desktop/INTEGRATEUR/adscraper/crawler/src/crawler.ts:426:11
+    at Module.crawl (file:///C:/Users/ibouk/Desktop/INTEGRATEUR/adscraper/crawler/src/crawler.ts:446:5)
+    at file:///C:/Users/ibouk/Desktop/INTEGRATEUR/adscraper/crawler/src/crawler-cli.ts:322:5
+[INFO 2025-01-13T23:03:07+01:00] Closing tab
+[INFO 2025-01-14T00:41:33+01:00] Postgres driver initialized
+[INFO 2025-01-14T00:41:33+01:00] Created new crawl record for bob with id 49
+[INFO 2025-01-14T00:41:33+01:00] Launching browser...
+[INFO 2025-01-14T00:41:37+01:00] Running Chrome/131.0.6778.264
+[INFO 2025-01-14T00:41:37+01:00] https://www.dailymail.co.uk/: Loading page
+[INFO 2025-01-14T00:41:48+01:00] https://www.dailymail.co.uk/: Page finished loading
+[INFO 2025-01-14T00:42:19+01:00] https://www.dailymail.co.uk/home/index.html: Scrolling page from top to bottom
+[INFO 2025-01-14T00:43:01+01:00] https://www.dailymail.co.uk/home/index.html: 26 ads identified
+[INFO 2025-01-14T00:43:01+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 1 of 26
+[INFO 2025-01-14T00:43:18+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 2 of 26
+[WARNING 2025-01-14T00:43:27+01:00] Couldn't scrape ad: Error: extract_area: bad extract area
+[INFO 2025-01-14T00:43:27+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 3 of 26
+[INFO 2025-01-14T00:43:35+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 4 of 26
+[INFO 2025-01-14T00:43:45+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 5 of 26
+[WARNING 2025-01-14T00:43:50+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2025-01-14T00:43:50+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 6 of 26
+[WARNING 2025-01-14T00:43:55+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2025-01-14T00:43:55+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 7 of 26
+[WARNING 2025-01-14T00:44:00+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2025-01-14T00:44:00+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 8 of 26
+[INFO 2025-01-14T00:44:08+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 9 of 26
+[INFO 2025-01-14T00:44:18+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 10 of 26
+[INFO 2025-01-14T00:44:31+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 11 of 26
+[WARNING 2025-01-14T00:44:36+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-14T00:44:36+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 12 of 26
+[WARNING 2025-01-14T00:44:41+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-14T00:44:41+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 13 of 26
+[INFO 2025-01-14T00:44:48+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 14 of 26
+[INFO 2025-01-14T00:44:57+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 15 of 26
+[INFO 2025-01-14T00:45:05+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 16 of 26
+[INFO 2025-01-14T00:45:12+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 17 of 26
+[INFO 2025-01-14T00:45:21+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 18 of 26
+[INFO 2025-01-14T00:45:29+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 19 of 26
+[INFO 2025-01-14T00:45:37+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 20 of 26
+[WARNING 2025-01-14T00:45:57+01:00] Couldn't scrape ad: Error: https://www.dailymail.co.uk/home/index.html: timed out while scraping ad - 20000ms
+[INFO 2025-01-14T00:45:57+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 21 of 26
+[INFO 2025-01-14T00:46:04+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 22 of 26
+[INFO 2025-01-14T00:46:13+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 23 of 26
+[INFO 2025-01-14T00:46:20+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 24 of 26
+[INFO 2025-01-14T00:46:27+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 25 of 26
+[INFO 2025-01-14T00:46:36+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 26 of 26
+[WARNING 2025-01-14T00:46:56+01:00] Couldn't scrape ad: Error: https://www.dailymail.co.uk/home/index.html: timed out while scraping ad - 20000ms
+[INFO 2025-01-14T00:46:56+01:00] Closing tab
+[INFO 2025-01-14T00:46:57+01:00] Crawl loop completed
+[INFO 2025-01-14T00:46:57+01:00] Browser still connected, closing browser
+[INFO 2025-01-14T00:50:13+01:00] Postgres driver initialized
+[INFO 2025-01-14T00:50:13+01:00] Created new crawl record for bob with id 50
+[INFO 2025-01-14T00:50:13+01:00] Launching browser...
+[INFO 2025-01-14T00:50:19+01:00] Running Chrome/131.0.6778.264
+[INFO 2025-01-14T00:50:19+01:00] https://www.dailymail.co.uk/: Loading page
+[INFO 2025-01-14T00:50:32+01:00] https://www.dailymail.co.uk/: Page finished loading
+[INFO 2025-01-14T00:51:02+01:00] https://www.dailymail.co.uk/home/index.html: Scrolling page from top to bottom

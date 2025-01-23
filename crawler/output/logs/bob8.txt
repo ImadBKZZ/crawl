@@ -1,0 +1,64 @@
+[INFO 2025-01-22T16:53:17+01:00] Postgres driver initialized
+[INFO 2025-01-22T16:54:38+01:00] Created new crawl record for bob8 with id 67
+[INFO 2025-01-22T16:54:38+01:00] Launching browser...
+[INFO 2025-01-22T16:54:40+01:00] Running Chrome/131.0.6778.264
+[INFO 2025-01-22T16:54:40+01:00] https://www.sub-vod.fr/: Loading page
+[INFO 2025-01-22T16:54:48+01:00] https://www.sub-vod.fr/: Page finished loading
+[INFO 2025-01-22T16:54:58+01:00] https://www.sub-vod.fr/: Scrolling page from top to bottom
+[INFO 2025-01-22T16:55:03+01:00] https://www.sub-vod.fr/: 1 ads identified
+[INFO 2025-01-22T16:55:03+01:00] https://www.sub-vod.fr/: Scraping ad 1 of 1
+[WARNING 2025-01-22T16:55:08+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2025-01-22T16:55:08+01:00] Closing tab
+[INFO 2025-01-22T16:55:09+01:00] Crawl loop completed
+[INFO 2025-01-22T16:55:09+01:00] Browser still connected, closing browser
+[INFO 2025-01-22T16:59:49+01:00] Postgres driver initialized
+[INFO 2025-01-22T17:01:10+01:00] Created new crawl record for bob8 with id 68
+[INFO 2025-01-22T17:01:10+01:00] Launching browser...
+[INFO 2025-01-22T17:01:11+01:00] Running Chrome/131.0.6778.264
+[INFO 2025-01-22T17:01:12+01:00] https://www.bournemouthecho.co.uk/: Loading page
+[INFO 2025-01-22T17:01:21+01:00] https://www.bournemouthecho.co.uk/: Page finished loading
+[INFO 2025-01-22T17:01:31+01:00] https://www.bournemouthecho.co.uk/: Scrolling page from top to bottom
+[INFO 2025-01-22T17:02:03+01:00] https://www.bournemouthecho.co.uk/: 6 ads identified
+[INFO 2025-01-22T17:02:03+01:00] https://www.bournemouthecho.co.uk/: Scraping ad 1 of 6
+[INFO 2025-01-22T17:02:09+01:00] https://www.bournemouthecho.co.uk/: Scraping ad 2 of 6
+[INFO 2025-01-22T17:02:15+01:00] https://www.bournemouthecho.co.uk/: Scraping ad 3 of 6
+[INFO 2025-01-22T17:02:20+01:00] https://www.bournemouthecho.co.uk/: Scraping ad 4 of 6
+[INFO 2025-01-22T17:02:26+01:00] https://www.bournemouthecho.co.uk/: Scraping ad 5 of 6
+[INFO 2025-01-22T17:02:32+01:00] https://www.bournemouthecho.co.uk/: Scraping ad 6 of 6
+[INFO 2025-01-22T17:02:38+01:00] Closing tab
+[INFO 2025-01-22T17:02:38+01:00] https://www.dailymail.co.uk/home/index.html: Loading page
+[INFO 2025-01-22T17:02:48+01:00] https://www.dailymail.co.uk/home/index.html: Page finished loading
+[INFO 2025-01-22T17:02:58+01:00] https://www.dailymail.co.uk/home/index.html: Scrolling page from top to bottom
+[INFO 2025-01-22T17:03:36+01:00] https://www.dailymail.co.uk/home/index.html: 25 ads identified
+[INFO 2025-01-22T17:03:36+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 1 of 25
+[INFO 2025-01-22T17:03:43+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 2 of 25
+[WARNING 2025-01-22T17:03:48+01:00] Couldn't scrape ad: Error: extract_area: bad extract area
+[INFO 2025-01-22T17:03:48+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 3 of 25
+[INFO 2025-01-22T17:03:55+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 4 of 25
+[INFO 2025-01-22T17:04:05+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 5 of 25
+[WARNING 2025-01-22T17:04:10+01:00] Couldn't scrape ad: Error: No ad bounding box
+[INFO 2025-01-22T17:04:10+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 6 of 25
+[INFO 2025-01-22T17:04:17+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 7 of 25
+[INFO 2025-01-22T17:04:24+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 8 of 25
+[INFO 2025-01-22T17:04:30+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 9 of 25
+[INFO 2025-01-22T17:04:37+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 10 of 25
+[WARNING 2025-01-22T17:04:42+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-22T17:04:42+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 11 of 25
+[WARNING 2025-01-22T17:04:47+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2025-01-22T17:04:47+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 12 of 25
+[INFO 2025-01-22T17:04:53+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 13 of 25
+[INFO 2025-01-22T17:04:59+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 14 of 25
+[INFO 2025-01-22T17:05:05+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 15 of 25
+[INFO 2025-01-22T17:05:12+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 16 of 25
+[INFO 2025-01-22T17:05:19+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 17 of 25
+[INFO 2025-01-22T17:05:25+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 18 of 25
+[INFO 2025-01-22T17:05:31+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 19 of 25
+[INFO 2025-01-22T17:05:38+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 20 of 25
+[INFO 2025-01-22T17:05:44+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 21 of 25
+[INFO 2025-01-22T17:05:49+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 22 of 25
+[INFO 2025-01-22T17:05:56+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 23 of 25
+[INFO 2025-01-22T17:06:02+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 24 of 25
+[INFO 2025-01-22T17:06:09+01:00] https://www.dailymail.co.uk/home/index.html: Scraping ad 25 of 25
+[INFO 2025-01-22T17:06:15+01:00] Closing tab
+[INFO 2025-01-22T17:06:15+01:00] Crawl loop completed
+[INFO 2025-01-22T17:06:15+01:00] Browser still connected, closing browser

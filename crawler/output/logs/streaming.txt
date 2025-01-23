@@ -1,0 +1,20 @@
+[INFO 2024-12-14T15:00:32+01:00] Postgres driver initialized
+[INFO 2024-12-14T15:01:53+01:00] Created new crawl record for streaming with id 3
+[INFO 2024-12-14T15:01:53+01:00] Launching browser...
+[INFO 2024-12-14T15:01:59+01:00] Running Chrome/129.0.6668.58
+[INFO 2024-12-14T15:01:59+01:00] https://www.stream4free.tv/simpsons-vf: Loading page
+[INFO 2024-12-14T15:02:09+01:00] https://www.stream4free.tv/simpsons-vf: Page finished loading
+[INFO 2024-12-14T15:02:09+01:00] https://www.stream4free.tv/simpsons-vf: Attempting to remove cookie banners
+[INFO 2024-12-14T15:02:10+01:00] https://www.stream4free.tv/simpsons-vf: Scrolling page from top to bottom
+[INFO 2024-12-14T15:02:12+01:00] https://www.stream4free.tv/simpsons-vf: 4 ads identified
+[INFO 2024-12-14T15:02:12+01:00] https://www.stream4free.tv/simpsons-vf: Scraping ad 1 of 4
+[WARNING 2024-12-14T15:02:18+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T15:02:18+01:00] https://www.stream4free.tv/simpsons-vf: Scraping ad 2 of 4
+[WARNING 2024-12-14T15:02:23+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T15:02:23+01:00] https://www.stream4free.tv/simpsons-vf: Scraping ad 3 of 4
+[WARNING 2024-12-14T15:02:28+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T15:02:28+01:00] https://www.stream4free.tv/simpsons-vf: Scraping ad 4 of 4
+[WARNING 2024-12-14T15:02:33+01:00] Couldn't scrape ad: Error: Ad smaller than 30px in one dimension
+[INFO 2024-12-14T15:02:33+01:00] Closing tab
+[INFO 2024-12-14T15:02:33+01:00] Crawl loop completed
+[INFO 2024-12-14T15:02:33+01:00] Browser still connected, closing browser

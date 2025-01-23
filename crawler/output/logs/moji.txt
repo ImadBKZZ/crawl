@@ -1,0 +1,12 @@
+[INFO 2025-01-06T10:13:47+01:00] Postgres driver initialized
+[INFO 2025-01-06T10:15:08+01:00] Created new crawl record for moji with id 13
+[INFO 2025-01-06T10:15:08+01:00] Launching browser...
+[INFO 2025-01-06T10:15:22+01:00] Running Chrome/129.0.6668.58
+[INFO 2025-01-06T10:15:22+01:00] https://www.adidas.fr/: Loading page
+[INFO 2025-01-06T10:15:30+01:00] https://www.adidas.fr/: Page finished loading
+[INFO 2025-01-06T10:15:30+01:00] https://www.adidas.fr/: Attempting to remove cookie banners
+[INFO 2025-01-06T10:15:31+01:00] https://www.adidas.fr/: Scrolling page from top to bottom
+[INFO 2025-01-06T10:15:41+01:00] https://www.adidas.fr/: 0 ads identified
+[INFO 2025-01-06T10:15:42+01:00] Closing tab
+[INFO 2025-01-06T10:15:42+01:00] Crawl loop completed
+[INFO 2025-01-06T10:15:42+01:00] Browser still connected, closing browser
