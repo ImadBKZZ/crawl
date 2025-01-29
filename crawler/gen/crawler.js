@@ -14,6 +14,7 @@ import DbClient from './util/db.js';
 import { InputError, NonRetryableError } from './util/errors.js';
 import * as log from './util/log.js';
 import { createAsyncTimeout, sleep } from './util/timeout.js';
+import { analyzeAdHTML } from './ads/ad-analyser.js';
 sourceMapSupport.install();
 ;
 function setupGlobals(crawlerFlags) {
@@ -432,6 +433,28 @@ async function exportResultCSV() {
         console.error("Erreur lors de l'exportation des données :", error);
     }
 }
+async function AnalyserAds() {
+    try {
+        const db = DbClient.getInstance();
+        // Requête SQL pour sélectionner deux colonnes avec une condition
+        const query = `
+          SELECT html
+          FROM ad
+          WHERE crawl_id = $1;
+      `;
+        // Exécuter la requête
+        const res = await db.postgres.query(query, [CRAWL_ID]);
+        // Analyser chaque HTML et stocker le résultat
+        const results = res.rows.map(row => ({
+            result: analyzeAdHTML(row.html)
+        }));
+        return results;
+    }
+    catch (error) {
+        console.error("Erreur lors de l'analyse des données :", error);
+        return [];
+    }
+}
 /**
  *
  * @param url URL to visit in the page
@@ -539,7 +562,10 @@ async function loadAndHandlePage(url, page, metadata) {
                 await db.archiveRequest(request);
             }
         }
-        await exportResultCSV();
+        (async () => {
+            const results = await AnalyserAds();
+            console.log("Résultats de l'analyse :", results);
+        })();
         // Disabled this code, because sometimes disabling request interception would hang
         // and cause puppeteer to lose connection to the browser. AFAIK there is no
         // harm in leaving request interception enabled because the page will be

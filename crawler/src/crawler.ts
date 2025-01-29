@@ -16,6 +16,7 @@ import DbClient, { WebRequest } from './util/db.js';
 import { InputError, NonRetryableError } from './util/errors.js';
 import * as log from './util/log.js';
 import { createAsyncTimeout, sleep } from './util/timeout.js';
+import { analyzeAdHTML } from './ads/ad-analyser.js'
 
 sourceMapSupport.install();
 
@@ -510,6 +511,31 @@ async function exportResultCSV(): Promise<void> {
       console.error("Erreur lors de l'exportation des données :", error);
   }
 }
+async function AnalyserAds(): Promise<{ result: number }[]> {
+  try {
+      const db = DbClient.getInstance();
+
+      // Requête SQL pour sélectionner deux colonnes avec une condition
+      const query = `
+          SELECT html
+          FROM ad
+          WHERE crawl_id = $1;
+      `;
+
+      // Exécuter la requête
+      const res = await db.postgres.query<{ html: string }>(query, [CRAWL_ID]);
+
+      // Analyser chaque HTML et stocker le résultat
+      const results = res.rows.map(row => ({
+          result: analyzeAdHTML(row.html)
+      }));
+
+      return results;
+  } catch (error) {
+      console.error("Erreur lors de l'analyse des données :", error);
+      return [];
+  }
+}
 
 /**
  * @param pageType Whether the URL is the one in the crawl list, or an
@@ -646,7 +672,10 @@ async function loadAndHandlePage(url: string, page: Page, metadata: LoadPageMeta
       }
     }
 
-    await exportResultCSV();
+    (async () => {
+      const results = await AnalyserAds();
+      console.log("Résultats de l'analyse :", results);
+  })();
     // Disabled this code, because sometimes disabling request interception would hang
     // and cause puppeteer to lose connection to the browser. AFAIK there is no
     // harm in leaving request interception enabled because the page will be
@@ -656,6 +685,8 @@ async function loadAndHandlePage(url: string, page: Page, metadata: LoadPageMeta
     // page.removeAllListeners('request');
     // log.verbose(`${url}: Disabling request interception`);
     // await page.setRequestInterception(false);
+
+    
     return pageId;
   } catch (e) {
     log.strError('Caught exception in loadAndHandlePage');

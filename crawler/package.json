@@ -13,6 +13,8 @@
   "author": "Eric Zeng",
   "license": "MIT",
   "dependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.7",
     "amqplib": "^0.10.4",
     "chalk": "^5.2.0",
     "cli-progress": "^3.12.0",
@@ -20,6 +22,7 @@
     "command-line-usage": "^7.0.3",
     "csv-parser": "^3.0.0",
     "dayjs": "^1.11.13",
+    "http": "^0.0.1-security",
     "jsonschema": "^1.4.1",
     "pg": "^8.13.0",
     "public-ip": "^6.0.1",
@@ -28,9 +31,9 @@
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "rss-parser": "^3.13.0",
     "sharp": "^0.33.5",
+    "simple-git": "^3.27.0",
     "tar": "^6.2.1",
-    "uuid": "^10.0.0",
-    "http": "0.0.1-security"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.5",

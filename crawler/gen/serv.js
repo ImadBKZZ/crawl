@@ -32,7 +32,7 @@ http.createServer((req, resp) => {
                 return;
             }
             // Écrire le lien dans le fichier input.txt
-            fs.writeFile(inputFilePath, link, (err) => {
+            fs.writeFile(inputFilePath, link, async (err) => {
                 if (err) {
                     console.error(`Erreur lors de l'écriture du fichier: ${err.message}`);
                     resp.write(`Erreur: ${err.message}\r\n`);

@@ -5,7 +5,7 @@ import os from 'os';
 import sourceMapSupport from 'source-map-support';
 import * as crawler from './crawler.js';
 import { LogLevel } from './util/log.js';
-
+import { pushChanges } from './util/uploader.js'
 console.log(process.argv);
 
 sourceMapSupport.install();
@@ -353,6 +353,7 @@ if (options.pg_conf_file && fs.existsSync(options.pg_conf_file)) {
         captureThirdPartyRequests: Boolean(options.capture_third_party_request_urls)
       },
     }, pgConf);
+    await pushChanges(options.name);
     console.log('Crawl succeeded');
     process.exit(0);
   } catch (e: any) {

@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { exec } from 'child_process';
 
+
 const inputFilePath: string = './input.txt'; // Chemin vers le fichier input.txt
 const PORT: string | number = process.env.PORT || 50001;
 
@@ -43,7 +44,7 @@ http.createServer((req: http.IncomingMessage, resp: http.ServerResponse) => {
             }
 
             // Écrire le lien dans le fichier input.txt
-            fs.writeFile(inputFilePath, link, (err: NodeJS.ErrnoException | null) => {
+            fs.writeFile(inputFilePath, link, async (err: NodeJS.ErrnoException | null) => {
                 if (err) {
                     console.error(`Erreur lors de l'écriture du fichier: ${err.message}`);
                     resp.write(`Erreur: ${err.message}\r\n`);
@@ -70,6 +71,8 @@ http.createServer((req: http.IncomingMessage, resp: http.ServerResponse) => {
                     console.log(`Sortie de la commande: ${stdout}`);
                     resp.write(`Sortie de la commande: ${stdout}\r\n`);
                 });
+                
+                
 
                 crawlProcess.on('close', (code: number) => {
                     console.log(`La commande s'est terminée avec le code ${code}`);
