@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adscraper
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adscraper
+  template:
+    metadata:
+      labels:
+        app: adscraper
+    spec:
+      containers:
+      - name: adscraper1
+        image: mongisaad/adscraper:1.0
+        ports:
+        - containerPort: 50001
