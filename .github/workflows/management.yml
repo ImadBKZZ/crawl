@@ -1,4 +1,4 @@
-name: CI/CD Pipeline for Adscraper
+name: CI/CD Pipeline Adscraper
 
 on:
   push:
