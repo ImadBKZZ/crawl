@@ -40,7 +40,7 @@ jobs:
 
       - name: Setup Kubeconfig
         run: |
-          echo "${{ secrets.KUBECONFIG }}" 
+          echo "${{ secrets.KUBECONFIG1 }}" 
           export KUBECONFIG=kubeconfig
 
       - name: Deploy to Kubernetes
